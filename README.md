@@ -33,6 +33,7 @@ This module lists available regulatory interactions observed in an organism of i
 > 5305 row(s) returned   
 > Duration: 25.828 sec / 0.359 sec 
 
+![KinMod Interface](https://github.com/kiahdd/KinMod/blob/main/image/organism_to_effector.png)
 
 The resulting table lists organism name, enzyme EC Number, effector IUPAC name, effector IID, effector SMILES, Effector InCHIKEY, KEGG ID, Inhibitor tag, Activator Tag, KI parameter(s), and additional comments.  
 Effector IID is the internal KinMod identifier assigned to distinct chemical molecules based on their first layer of InCHI string. The inhibitor tag is one for inhibitor molecules, and for activator molecules, the activator tag is one. Additional comments can include a range of reported kinetic parameters, the experimental conditions or reveal if the enzyme was induced in the organism.  
@@ -46,7 +47,9 @@ module outputs all observed regulatory interactions across species of a molecule
 > **effector_to_organism('citrate');**   
 > 401 row(s) returned   
 > 1.609 sec / 0.000 sec 
-  
+
+![KinMod Interface](https://github.com/kiahdd/KinMod/blob/main/image/effector_to_organism.png)
+
 This module returns the organism names and EC numbers for which citrate act as an effector. Also, the structure of this molecule, inhibitor tag and activator tag can be obtained.  
 ***
 <a name="mod3"></a>
@@ -55,7 +58,9 @@ This module returns the organism names and EC numbers for which citrate act as a
 > **organism_to_reactant('*Escherichia coli*')**
 > 3112 row(s) returned   
 > 2.500 sec / 4.375 sec 
-  
+
+![KinMod Interface](https://github.com/kiahdd/KinMod/blob/main/image/organism_to_reactant.png)
+
 This module returns the KM values reported for EC numbers in Escherichia coli. The output table includes information on the reaction string, the EC number, reactants IUPAC name, and KM values. 
 
 
