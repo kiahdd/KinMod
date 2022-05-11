@@ -15,7 +15,7 @@ The hierarchical ontology of the KinMod database allows flexible exploration of 
   
 <a name="web"></a>
 ## 2. Web Application
-KinMod web application is available on <a href="https://lmse.utoronto.ca/kinmod/kinmod/" target="_blank">KinMod</a>.
+KinMod web application is available on <a href="https://lmse.utoronto.ca/kinmod/kinmod/" target="_blank">LMSE KinMod Interface</a>.
   
 <a name="usage"></a>
 ## 3. Data
@@ -60,7 +60,7 @@ This module returns the KM values reported for EC numbers in Escherichia coli. T
 ***
 <a name="examp"></a>
 ## 3. Sequence Data
-Three additional files are accessible in a NoSQL format (JSON files) on <a href="https://lmse.utoronto.ca/kinmod" target="_blank">Sequence Data</a>. to provide a linkage between BRENDA, PDB, and Swiss-port.   
-  *	_ec_sequence_organism.json_ provides the sequence data for each EC number of specific species extracted from the PDB database.  
-  *	_Pdb_to_uniprot.json_ links PDB and UniProt Identifiers and lists enzymes' binding sites, descriptions, and particular protein residues.  
-  * _Annotation.json_ is a dataset that provides GO annotations for each PDB sequence.  
+Three additional files are accessible in a NoSQL format (JSON files) on <a href="https://lmse.utoronto.ca/kinmod" target="_blank">KinMod Sequence Data</a>. to provide a linkage between BRENDA, PDB, and Swiss-port.   
+  *	<a href="https://lmse.utoronto.ca/kinmod/ec_sequence_organism.json" target="_blank">_ec_sequence_organism.json_</a> provides the sequence data for each EC number of specific species extracted from the PDB database.  
+  *	<a href="https://lmse.utoronto.ca/kinmod/Pdb_to_uniprot.json" target="_blank">_Pdb_to_uniprot.json_</a> links PDB and UniProt Identifiers and lists enzymes' binding sites, descriptions, and particular protein residues.  
+  * <a href="https://lmse.utoronto.ca/kinmod/Annotation.json" target="_blank">>_Annotation.json_</a> is a dataset that provides GO annotations for each PDB sequence.  
