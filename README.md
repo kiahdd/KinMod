@@ -17,6 +17,8 @@ The hierarchical ontology of the KinMod database allows flexible exploration of 
 ## 2. Web Application
 KinMod web application is available on <a href="https://lmse.utoronto.ca/kinmod/kinmod/" target="_blank">LMSE KinMod Interface</a>.
   
+![KinMod Interface](https://github.com/kiahdd/KinMod/blob/main/image/overall.png)
+  
 <a name="usage"></a>
 ## 3. Data
 
