@@ -1,9 +1,9 @@
 # Table of Content
 1. [ Abstract ](#desc)
 2. [ Data ](#usage)
-..* [ organism_to_effector module ](#mod1)
-..* [ effector_to_organism module ](#mod2)
-..* [ organism_to_reactants module ](#mod3)
+  * [ organism_to_effector module ](#mod1)
+  * [ effector_to_organism module ](#mod2)
+  * [ organism_to_reactants module ](#mod3)
 3. [ Additional Files ](#examp)
 
 
@@ -18,7 +18,7 @@ The hierarchical ontology of the KinMod database allows flexible exploration of 
 To allow a comprehensive analysis of the data, we developed three analysis modules in the KinMod web application. The organism_to_effector module allows flexible exploration of linked effector molecules and available KI parameters to a specific organism, providing the opportunity of investigating the regulatory networks within species. The effector_to_organism module enables the investigation of the regulation effect of a given molecule across species, providing the opportunity to compare the functional metabolism of organisms. the organism_to_reactants module allows exploration of available KM parameters in a given organism, opening up insights into the saturation of enzymes within species. 
 
 <a name="mod1"></a>
-..* *organism_to_effector module*: 
+  * *organism_to_effector module*: 
 
 This module lists available regulatory interactions observed in an organism of interest, such as Escherichia coli. 
 <dl>
